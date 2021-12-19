@@ -1,0 +1,5 @@
+terrain,distance (in km)
+"boundary wall,road",0
+road,0.5
+river side,1.5
+"civil station, road",3
