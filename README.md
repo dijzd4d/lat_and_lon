@@ -25,8 +25,8 @@ Mapped terrain data is updated on the same table lat_long.
 Task 1.3: Query to list all the point in the table lat_long with the terrain "road" in it without "civil station"
 
 ### Software dependencies
-Python - 3.6 or above
-Pandas - 1.0.1
-SQLAlchemy - 1.3.13
-Matplotlib - 3.3.4
-Geographiclib - 1.52
+1. Python - 3.6 or above
+2. Pandas - 1.0.1
+3. SQLAlchemy - 1.3.13
+4. Matplotlib - 3.3.4
+5. Geographiclib - 1.52
