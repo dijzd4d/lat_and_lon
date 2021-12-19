@@ -16,7 +16,7 @@ latitude and longitude and 0 KM and end as )
 Task 1.1: The python code automatically fixes the latitude and longitude coordinates that are out of line from Point A to Point B.
 This is done by calculating the distance between each (lat, lon), and checks if the distance between the lat lon exceeds the threshold distance.
 Threshold is calculated by taking cumulative average of the distance from point A to the prev (lat, lon).
-If the (lat, lon) exceeds the threshold distance, coordinate correction is made by calculating new (lat, lon) at a distance of threshold, in the same angle/projection of that of the correctecting (lat, lon). Geographiclib is the library used for distance and azimuth calculation.
+If the (lat, lon) exceeds the threshold distance, coordinate correction is made by calculating new (lat, lon) at a distance of threshold, in the same angle/projection of that of the correctecting (lat, lon). Geographiclib is the library used for distance and azimuth calculation as it can solve the direct and inverse problems for an ellipsoid of revolution.
 Data is updated to table lat_long with corrected lat-lon.
 
 Task 1.2: From given list of terrain with kilometers, each lat-lon is mapped to a terrain by comparing the cumulative distance of the lat-lon with that of the terrain.
